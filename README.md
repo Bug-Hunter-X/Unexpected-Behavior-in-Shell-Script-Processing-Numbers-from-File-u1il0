@@ -1,0 +1,3 @@
+# Shell Script Bug: Unexpected Behavior with Number Processing
+
+This repository demonstrates a common but subtle bug in shell scripting related to file processing. The script attempts to read numbers from a file and calculate their sum, but fails when numbers are not separated by whitespace. This is because the `read` command, when used without a specified delimiter, reads the entire line as a single input.
